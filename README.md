@@ -99,3 +99,4 @@ und so den gesamten Produkt-Upload stark vereinfacht.
 Updates:
 - Ursprungsland/-region -> automatische Übersetzung für TEMU
 - Leere Werte in 'Nicht verfügbar für Listenpreis' werden zu 'N/A'
+- CSV vollständig als Strings einlesen
