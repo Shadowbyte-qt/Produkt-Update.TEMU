@@ -51,6 +51,20 @@ try:
     print()
 
     # ==============================================================
+    # pandas N/A workaround
+    # ==============================================================
+
+    col_nv_listenpreis = "Nicht verfügbar für Listenpreis"
+
+    if col_nv_listenpreis in df.columns:
+        # Alle NaN/fehlenden Werte in dieser Spalte durch "N/A" ersetzen
+        df[col_nv_listenpreis] = df[col_nv_listenpreis].fillna("N/A")
+        print("[INFO] Leere Werte in 'Nicht verfügbar für Listenpreis' wurden zu 'N/A' gesetzt.\n")
+    else:
+        print("[WARNUNG] Spalte 'Nicht verfügbar für Listenpreis' nicht in der CSV gefunden.\n")
+
+
+    # ==============================================================
     # 3. Übersetzung Ursprungsland & Umrechnen
     # ==============================================================
 
