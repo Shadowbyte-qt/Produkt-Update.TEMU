@@ -1,16 +1,6 @@
-📊 Automatisiertes Produkt-Update für TEMU
-1. Hintergrund & Zielsetzung
-Beim Hochladen oder Aktualisieren von Produkten auf TEMU müssen häufig viele Daten manuell vorbereitet werden.
-Das führt oft zu:
-- Zeitaufwändiger Datenpflege
-- Fehlern durch Copy & Paste
-- Uneinheitlichen oder fehlenden Angaben
-- Wiederholter Arbeit bei jedem neuen Export
-
-👉 Dieses Skript automatisiert große Teile dieses Prozesses.
+👉 Dieses Skript automatisiert große Teile des TEMU Uploads.
 Es nimmt eine CSV-Datei aus PlentyMarkets, verarbeitet sie und trägt alle benötigten Daten automatisch in eine bestehende TEMU-Vorlage (Excel) ein.
 
-2. Was das Skript für dich erledigt
 🔄 1. Automatisierter Start & Benutzerhinweise
 Beim Start zeigt das Skript:
 - eine kurze Einführung
@@ -77,7 +67,7 @@ Am Ende:
 - wartet, bis der Anwender den Vorgang abschließt
 Damit ist der Prozess klar abgeschlossen.
 
-3. Vorteile für den Arbeitsalltag
+👉 Vorteile für den Arbeitsalltag
 Enorme Zeitersparnis
 Statt hunderte Produkte manuell zu pflegen:
 Ein Klick → Fertige Importdatei.
@@ -88,14 +78,14 @@ Weniger Fehler
 - zuverlässige Berechnung von Mengen
 - keine Copy-&-Paste-Fehler mehr
 
-📈 Skalierbar & sicher
+Skalierbar & sicher
 Ideal auch für große Datenmengen.
 Kann problemlos erweitert werden, z. B.:
 - automatische Kategorie-Zuordnung
 - zusätzliche Qualitätsprüfungen
 - Log-Dateien
 
-4. Zusammenfassung
+👉 Zusammenfassung
 Dieses Skript ist ein effektives Automatisierungswerkzeug, das:
 - CSV-Daten automatisch verarbeitet,
 - Maße umrechnet,
