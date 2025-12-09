@@ -43,7 +43,8 @@ try:
     df = pd.read_csv(
         csv_path,
         sep=";",          # Semikolon als Trennzeichen
-        encoding="utf-8"  # ggf. anpassen, z.B. 'latin-1'
+        encoding="utf-8",  # ggf. anpassen, z.B. 'latin-1'
+        dtype=str  # <<< fix für Preis in € Spalte (TEST: URLS)
     )
 
     print("[INFO] Spalten in der CSV:")
