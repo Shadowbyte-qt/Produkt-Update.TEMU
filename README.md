@@ -100,4 +100,6 @@ Updates:
 - Ursprungsland/-region -> automatische Übersetzung für TEMU
 - Leere Werte in 'Nicht verfügbar für Listenpreis' werden zu 'N/A'
 - CSV vollständig als Strings einlesen
-- saubere Trennung von Bild URLs
+- (ausgesetzt) saubere Trennung von Bild URLs
+- entfernen von rich text
+- aktivieren von erforderlichen nicht-Pflichtfeldern
