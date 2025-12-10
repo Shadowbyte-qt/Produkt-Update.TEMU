@@ -103,3 +103,5 @@ Updates:
 - (ausgesetzt) saubere Trennung von Bild URLs
 - entfernen von rich text
 - aktivieren von erforderlichen nicht-Pflichtfeldern
+
+PS: Tests ungünstig, da jedes mal seitens TEMU die Änderungen überprüft werden - ‚Produkt wird verarbeitet, bitte später erneut versuchen‘
