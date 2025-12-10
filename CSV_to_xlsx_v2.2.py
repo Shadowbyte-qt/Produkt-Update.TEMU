@@ -156,7 +156,7 @@ try:
         print(f"[WARNUNG] Spalte '{source_col}' nicht gefunden oder leer – Gesamtartikelanzahl wird nicht berechnet.\n")
 
     # ==============================================================
-    # 5. URL-Spalten für Temu bereinigen (NEU)
+    # 5. URL-Spalten für Temu bereinigen
     # ==============================================================
 
     print("[INFO] Bereinige Bild-URL-Spalten für Temu ...")
@@ -166,7 +166,7 @@ try:
         Beispieleingang:
         'https://...1111001.jpg;0,https://...1111001-1.jpg;1,'
 
-        -> 'https://...1111001.jpg|https://...1111001-1.jpg'
+        -> 'https://...1111001-1.jpg'
         """
         if pd.isna(value):
             return ""
@@ -179,8 +179,8 @@ try:
         # Nur Einträge, die wie URLs aussehen, behalten
         urls = [p.strip() for p in parts if p.strip().startswith("http")]
 
-        # Mit | verbinden (Temu-konform)
-        return "|".join(urls)
+        # [seperator]-> return ",".join(urls)
+        return urls[0] if urls else ""
 
     url_columns = [
         "URL für Detailbilder",
