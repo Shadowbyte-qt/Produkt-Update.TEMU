@@ -45,7 +45,7 @@ try:
         csv_path,
         sep=";",          # Semikolon als Trennzeichen
         encoding="utf-8", # ggf. anpassen, z.B. 'latin-1'
-        dtype=str         # <<< NEU: alles zunächst als Text einlesen
+        dtype=str         # alles zunächst als Text einlesen
     )
 
     print("[INFO] Spalten in der CSV:")
