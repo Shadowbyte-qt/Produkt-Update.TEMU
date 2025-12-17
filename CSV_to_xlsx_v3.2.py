@@ -315,11 +315,17 @@ try:
             # Text bereinigen (Rich-Text entfernen)
             value = clean_richtext(data_row[csv_col])
 
-            # Längenbegrenzung für SKU-Bilder-URLs (max. 512 Zeichen)
+            # Längenbegrenzung für Felder
             if csv_col == "URL für SKU-Bilder":
                 if value and len(value) > 512:
                     print(f"[WARNUNG] SKU-Bild-URL gekürzt (Zeile {i})")
                 value = limit_length(value, 512)
+
+            elif csv_col == "Aufzählungspunkt":
+                if value and len(value) > 700:
+                    print(f"[WARNUNG] Aufzählungspunkt gekürzt (Zeile {i})")
+                value = limit_length(value, 700)
+
 
             def limit_length(value, max_length):
                 if value is None:
