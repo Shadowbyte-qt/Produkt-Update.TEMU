@@ -53,6 +53,21 @@ try:
     print()
 
     # ==============================================================
+    # Standardwert für 'Anzahl' auf 0 setzen
+    # ==============================================================
+
+    col_anzahl = "Anzahl"
+
+    if col_anzahl in df.columns:
+        df[col_anzahl] = df[col_anzahl].fillna("0")
+        df[col_anzahl] = df[col_anzahl].replace("", "0")
+        print("[INFO] Leere Werte in 'Anzahl' wurden auf 0 gesetzt.\n")
+    else:
+        # Falls Spalte komplett fehlt → neu anlegen
+        df[col_anzahl] = "0"
+        print("[INFO] Spalte 'Anzahl' fehlte und wurde mit Standardwert 0 angelegt.\n")
+
+    # ==============================================================
     # pandas N/A workaround
     # ==============================================================
 
