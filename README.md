@@ -108,7 +108,8 @@ Updates:
 - 512 Zeichenlimit für "URL für SKU-Bilder"
 - Standardwert für 'Anzahl' = 0
 - Zeichenkürzung für SKU Bilder und Aufzählungen
-➡️ V4.1e
+  
+:: V4.1e ::
 - Seperator Bilder
 - Seperator Aufzählungspunkte
 - automatische Kategorieerkennung
