@@ -115,4 +115,5 @@ Updates:
 - benötigte Spalten ergänzt
 - Gesamtartikel = Artikel
 - kleinere Fixes
+- egene Kategorienamen
 
