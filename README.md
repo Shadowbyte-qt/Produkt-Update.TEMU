@@ -1,6 +1,8 @@
 👉 Dieses Skript automatisiert große Teile des TEMU Uploads.
 Es nimmt eine CSV-Datei aus PlentyMarkets, verarbeitet sie und trägt alle benötigten Daten automatisch in eine bestehende TEMU-Vorlage (Excel) ein.
 
+<img width="957" height="557" alt="image" src="https://github.com/user-attachments/assets/90970caf-ff58-49c9-9275-9f98312d2794" />
+
 🔄 1. Automatisierter Start & Benutzerhinweise
 Beim Start zeigt das Skript:
 - eine kurze Einführung
@@ -106,5 +108,10 @@ Updates:
 - 512 Zeichenlimit für "URL für SKU-Bilder"
 - Standardwert für 'Anzahl' = 0
 - Zeichenkürzung für SKU Bilder und Aufzählungen
+V4.1e
+- Seperator Bilder
+- Seperator Aufzählungspunkte
+- automatische Kategorieerkennung
+- ignoriere Einträge ohne Produkt ID
 
-PS: Tests ungünstig, da jedes mal seitens TEMU die Änderungen überprüft werden - ‚Produkt wird verarbeitet, bitte später erneut versuchen‘
+
