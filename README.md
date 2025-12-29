@@ -116,4 +116,4 @@ Updates:
 - Gesamtartikel = Artikel
 - kleinere Fixes
 - egene Kategorienamen
-
+- Filter für fehlerhafte Artikel
