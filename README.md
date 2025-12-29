@@ -1,8 +1,6 @@
 👉 Dieses Skript automatisiert große Teile des TEMU Uploads.
 Es nimmt eine CSV-Datei aus PlentyMarkets, verarbeitet sie und trägt alle benötigten Daten automatisch in eine bestehende TEMU-Vorlage (Excel) ein.
 
-<img width="957" height="557" alt="image" src="https://github.com/user-attachments/assets/90970caf-ff58-49c9-9275-9f98312d2794" />
-
 🔄 1. Automatisierter Start & Benutzerhinweise
 Beim Start zeigt das Skript:
 - eine kurze Einführung
@@ -114,5 +112,7 @@ Updates:
 - Seperator Aufzählungspunkte
 - automatische Kategorieerkennung
 - ignoriere Einträge ohne Produkt ID
-
+- benötigte Spalten ergänzt
+- Gesamtartikel = Artikel
+- kleinere Fixes
 
