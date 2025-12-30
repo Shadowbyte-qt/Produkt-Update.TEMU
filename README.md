@@ -124,4 +124,5 @@ Updates:
 - Fix: Deutschland -> Germany
 - Fix: Url " " -> "_"
 - Code Cleaning
+- Optimierte Kategoriezuweisung
 
