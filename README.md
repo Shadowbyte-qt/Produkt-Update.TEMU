@@ -117,6 +117,7 @@ Updates:
 - kleinere Fixes
 - eigene Kategorienamen
 - Filter für fehlerhafte Artikel
+
 -> V4.1f
 - Filter für Garten & Haushalt
 - Fixes
