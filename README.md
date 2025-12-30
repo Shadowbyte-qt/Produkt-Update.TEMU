@@ -120,6 +120,6 @@ Updates:
 
 -> V4.1f
 - Filter für Garten & Haushalt
-- Fixes
+- Fix: Min 1 Artikel, Gesamtartikel
 - Deutschland -> Germany
 
