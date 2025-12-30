@@ -118,8 +118,10 @@ Updates:
 - eigene Kategorienamen
 - Filter für fehlerhafte Artikel
 
--> V4.1f
+-> V4.2
 - Filter für Garten & Haushalt
-- Fix: Min 1 Artikel, Gesamtartikel
-- Deutschland -> Germany
+- Fix: Artikel, Gesamtartikel, Maße =>1
+- Fix: Deutschland -> Germany
+- Fix: Url " " -> "_"
+- Code Cleaning
 
