@@ -126,3 +126,13 @@ Updates:
 - Code Cleaning
 - Optimierte Kategoriezuweisung
 
+-> V4.3
+- neue Kategorie: Isolierung, Schlüssel, Fernbedienung
+- Aktualisiert: Spalten-Mapping
+- Länder übersetzt: Polen, Türkei
+- Neues Template
+
+
+
+
+
